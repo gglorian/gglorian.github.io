@@ -56,9 +56,10 @@
                     <a href="mailto:gael.glorian@labri.com">gael.glorian@labri.com</a>
                 </div>
                 <p class="lead mb-5">
-                    I'm currently working on the <b>KIWI</b> research project with <a
+                    I'm currently working on the <b>KIWI</b> research project with <a target="_blank"
                         href="https://www.ubisoft.com/fr-FR/studio/bordeaux.aspx">Ubisoft Bordeaux</a> & <a
-                        href="https://www.nouvelle-aquitaine.fr/">Région Nouvelle-Aquitaine</a>. The objective of the
+                        target="_blank" href="https://www.nouvelle-aquitaine.fr/">Région Nouvelle-Aquitaine</a>. The
+                    objective of the
                     project is to meet technological challenges on a set of fields related to automation of scalable
                     interactive simulations in real time and to analyse actors and their behavior. The LaBRI & Ubisoft
                     mission is to improve procedural content generation techniques and to formally guarantee certain
@@ -116,8 +117,9 @@
                             2018 and 2019). In order to enrich the SAT / CP hybridization, we conducted a study on the
                             quality of clauses produced by the SAT engine. This allowed us to propose new methods for
                             clauses database reduction, minimization and new search heuristics.</p>
-                        <a class="navbar-brand" href="http://www.theses.fr/s164560">See on theses.fr</a>
-                        <a class="navbar-brand" href="http://www.cril.univ-artois.fr/en/phds/glorian.en.htmll">See on
+                        <a class="navbar-brand" target="_blank" href="http://www.theses.fr/s164560">See on theses.fr</a>
+                        <a class="navbar-brand" target="_blank"
+                            href="http://www.cril.univ-artois.fr/en/phds/glorian.en.htmll">See on
                             CRIL website</a>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">2016 - 2019</span></div>
@@ -149,7 +151,269 @@
     </section>
     <hr class="m-0" />
 
-    
+    <!-- Publications-->
+    <section class="resume-section" id="publications">
+        <div class="resume-section-content">
+            <h2 class="mb-5">Publications</h2>
+            <h3 class="mb-5">International</h3>
+
+            <p>
+                <b>NACRE - A nogood and clause reasoning engine.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#DBLP:conf/lpar/GlorianLL20">bib</a>&nbsp;|
+                <a target="_blank" href="https://easychair.org/publications/paper/rN67">http</a>&nbsp;|
+                <a target="_blank" href="PDF/2020/NACRE_-_A_Nogood_And_Clause_Reasoning_Engine.pdf">pdf</a>]<br>
+                Gael Glorian, Jean-Marie Lagniez, and Christophe Lecoutre. <br>
+                In Elvira Albert and Laura Kov&aacute;cs, editors, <em>LPAR 2020:
+                    23rd International Conference on Logic for Programming, Artificial
+                    Intelligence and Reasoning, Alicante, Spain, May 22-27, 2020</em>, volume&nbsp;73 of
+                <em>EPiC Series in Computing</em>, pages 249--259. EasyChair, 2020.
+                <br><button onclick="toggle_visibility('GlorianLL20');">Show/Hide abstract</button>
+            <blockquote id="GlorianLL20" style="display: none;">
+                NACRE, for Nogood And Clause Reasoning Engine, is a constraint solver written in
+                C++. It is based on a modular architecture designed to work with generic constraints while
+                implementing several state-of-the-art search methods and heuristics. Interestingly, its data
+                structures have been carefully designed to play around nogoods and clauses, making it suitable for
+                implementing learning strategies. NACRE was submitted to the CSP MiniTrack
+                of the 2018 and 2019 XCSP3 [8] competitions where it took the first place. This paper
+                gives a general description of NACRE as a framework. We present its kernel, the available
+                search algorithms, and the default settings (notably, used for XCSP3 competitions), which
+                makes NACRE efficient in practice when used as a black-box solver.
+            </blockquote>
+            </p>
+
+            <p>
+                <b>pFactory: A generic library for designing parallel solvers.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#AudemardGLMS19">bib</a>&nbsp;|
+                <a target="_blank"
+                    href="http://www.iadisportal.org/digital-library/pfactory-a-generic-library-for-designing-parallel-solvers">http</a>&nbsp;|
+                <a target="_blank" href="PDF/2019/AC_2019.pdf">pdf</a>]<br>
+                Gilles Audemard, Gael Glorian, Jean-Marie Lagniez, Valentin Montmirail, and
+                Nicolas Szczepanski.<br>
+                In Hans Weghorn, editor, <em>the 16th International Conference on
+                    Applied Computing, AC'19</em>, pages 89--96, 2019.
+                <br><button onclick="toggle_visibility('AudemardGLMS19');">Show/Hide abstract</button>
+
+            <blockquote id="AudemardGLMS19" style="display: none;">
+                With the advent of multi-core processors, it makes sense to design multithreaded solvers.
+                Nevertheless, implementing such solvers is often a cumbersome task. Indeed, multithreaded
+                SAT solvers are not easy to write, and only experienced programmers should undertake to code
+                for these types of applications. To overcome this problem, we propose a new library that
+                simplifies the design of multi thread solvers. Particular care was given to make efficient
+                the transfer of a large amount of information between solver units. We show that it is easy
+                to implement parallel solvers by using ​ pF​actory on SAT paradigm. We also experimentally
+                validate that such solvers are competitive against state-of-the-art parallel solvers.
+            </blockquote>
+            </p>
+
+            <p>
+                <b> An incremental sat-based approach to the graph colouring problem.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#DBLP:conf/cp/GlorianLMS19">bib</a>&nbsp;|
+                <a target="_blank" href="https://doi.org/10.1007/978-3-030-30048-7_13">http</a>&nbsp;|
+                <a target="_blank"
+                    href="PDF/2019/CP_2019_An Incremental SAT-Based Approach to the Graph Colouring Problem.pdf">pdf</a>]<br>
+                Gael Glorian, Jean-Marie Lagniez, Valentin Montmirail, and Nicolas
+                Szczepanski.<br>
+                In Thomas Schiex and Simon de&nbsp;Givry, editors, <em>Principles and
+                    Practice of Constraint Programming - 25th International Conference, CP
+                    2019, Stamford, CT, USA, September 30 - October 4, 2019, Proceedings</em>, volume
+                11802 of <em>Lecture Notes in Computer Science</em>, pages 213--231. Springer,
+                2019.
+                <br><button onclick="toggle_visibility('GlorianLMS19');">Show/Hide abstract</button>
+
+            <blockquote id="GlorianLMS19" style="display: none;">
+                We propose and evaluate a new CNF encoding based on Zykov’s tree
+                for computing the chromatic number of a graph. Zykov algorithms are branchand-bound procedures, that
+                branch on pairings of vertices that express whether or
+                not two non-adjacent vertices have the same colour. Thus, vertices with the same
+                colour are contracted whereas edges are added between vertices when they have
+                different colours. Such pairings make possible the use of a well-known recurrence
+                relation, that states that the chromatic number of a graph cannot be lower than the
+                the chromatic number of its subgraphs. Our encoding associates with any graph
+                and integer k a CNF formula that is satisfiable if and only if the chromatic number
+                of the graph is at least k. We first show that any colouring satisfying a complete
+                pairing always required a fixed number of colours. Then, we establish a CNF encoding that counts the
+                number of colours required by a pairing. However, due to
+                a large number of clauses required to encode transitivity constraints on pairings, a
+                direct encoding does not scale well in practice. To avoid this pitfall, we designed
+                a CEGAR-based (Counter-Example Guided Abstraction Refinement) approach
+                that only encodes a part of the problem and then adds the missing constraints in
+                an incremental way until a valid solution with k colours is found or the unsatisfiability of the problem
+                is proven, meaning that the chromatic number of the graph
+                is greater than k. We show that our encoding scheme performs in many cases
+                significantly better than the state-of-the-art approaches to colouring.
+
+            </blockquote>
+
+            </p>
+
+            <p>
+                <b>An incremental sat-based approach to reason efficiently on
+                    qualitative constraint networks.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#DBLP:conf/cp/GlorianLMS18">bib</a>&nbsp;|
+                <a target="_blank" href="https://doi.org/10.1007/978-3-319-98334-9_11">http</a>&nbsp;|
+                <a target="_blank"
+                    href="PDF/2018/CP_2018_An Incremental SAT-Based Approach to Reason Efficiently On Qualitative Constraint Networks.pdf">pdf</a>]<br>
+                Gael Glorian, Jean-Marie Lagniez, Valentin Montmirail, and Michael Sioutis.<br>
+                In John&nbsp;N. Hooker, editor, <em>Principles and Practice of Constraint
+                    Programming - 24th International Conference, CP 2018, Lille, France, August
+                    27-31, 2018, Proceedings</em>, volume 11008 of <em>Lecture Notes in Computer
+                    Science</em>, pages 160--178. Springer, 2018.
+                <br><button onclick="toggle_visibility('GlorianLMS18');">Show/Hide abstract</button>
+
+            <blockquote id="GlorianLMS18" style="display: none;">
+                The RCC8 language is a widely-studied formalism for describing topological arrangements of
+                spatial regions. Two fundamental reasoning problems that are associated with RCC8 are the problems of
+                satisfiability and realization. Given a qualitative constraint network (QCN) of RCC8, the
+                satisfiability problem is deciding whether it is possible to assign regions to the spatial variables of
+                the QCN in such a way that all of its constraints are satisfied (solution). The realization problem is
+                producing an actual spatial model that can serve as a solution. Researchers in RCC8 focus either
+                on symbolically checking the satisfiability of a QCN or on presenting a method to realize (valuate)
+                a satisfiable QCN. To the best of our knowledge, a combination of those two lines of research has
+                not been considered in the literature in a unified and homogeneous approach, as the first line deals
+                with native constraint-based methods, and the second one with rich mathematical structures that are
+                difficult to implement. In this article, we combine the two aforementioned lines of research and explore
+                the opportunities that surface by interrelating the corresponding reasoning problems, viz., the
+                problems of satisfiability and realization. We restrict ourselves to QCNs that, when satisfiable, are
+                realizable with rectangles. In particular, we propose an incremental SAT-based approach for providing a
+                framework that reasons about the RCC8 language in a counterexample-guided manner. The
+                incrementality of our approach also avoids the usual blow-up and the lack of scalability in SAT-based
+                encodings. Specifically, our SAT-translation is parsimonious, i.e, constraints are added incrementally
+                in a manner that guides the embedded SAT-solver and forbids it to find the same counter-example
+                twice. We experimentally evaluated our approach and studied its scalability against state-of-the-art
+                solvers for reasoning about RCC8 relations using a varied dataset of instances. The approach scales
+                up and is competitive with the state of the art for the considered benchmarks.
+            </blockquote>
+            </p>
+
+            <p>
+                <b> Combining nogoods in restart-based search.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#DBLP:conf/cp/GlorianBLLM17">bib</a>&nbsp;|
+                <a target="_blank" href="http://dx.doi.org/10.1007/978-3-319-66158-2_9">http</a>&nbsp;|
+                <a target="_blank" href="PDF/2017/CP_2017_Combining Nogoods in Restart-Based Search.pdf">pdf</a>]<br>
+                Gael Glorian, Fr&eacute;d&eacute;ric Boussemart, Jean-Marie Lagniez, Christophe
+                Lecoutre, and Bertrand Mazure.<br>
+                In J.&nbsp;Christopher Beck, editor, <em>Principles and Practice of
+                    Constraint Programming - 23rd International Conference, CP 2017, Melbourne,
+                    VIC, Australia, August 28 - September 1, 2017, Proceedings</em>, volume 10416 of
+                <em>Lecture Notes in Computer Science</em>, pages 129--138. Springer, 2017.
+                <br><button onclick="toggle_visibility('GlorianBLLM17');">Show/Hide abstract</button>
+
+            <blockquote id="GlorianBLLM17" style="display: none;">
+                Nogood recording is a form of learning that has been shown useful for solving constraint satisfaction
+                problems. One simple approach involves recording nogoods that are extracted from the rightmost
+                branches of the successive trees built by a backtrack search algorithm with restarts. In this paper, we
+                propose several mechanisms to reason with so-called increasing-nogoods that exactly correspond to
+                the states reached at the end of each search run. Interestingly, some similarities that can be observed
+                between increasing-nogoods allow us to propose new original ways of dynamically combining them
+                in order to improve the overall filtering capability of the learning system. Our preliminary results
+                show the practical interest of our approach.
+            </blockquote>
+            </p>
+
+            <br>
+            <h3 class="mb-5">National</h3>
+
+            <p>
+                <b>Une approche sat incr&eacute;mentale pour raisonner efficacement sur les
+                    r&eacute;seaux de contraintes qualitatives.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#GlorianLMSjfpc19">bib</a>&nbsp;|
+                <a target="_blank"
+                    href="PDF/2019/JFPC_2019_Une approche SAT incrémentale pour raisonner efficacement sur les réseaux de contraintes qualitatives.pdf">pdf</a>]<br>
+                Gael Glorian, Jean-Marie Lagniez, Valentin Montmirail, and Michael Sioutis.<br>
+                In <em>Quizièmes journées Francophones de Programmation par
+                    Contraintes, JFPC 2019, Albi, France, 10 au 13 juin, 2019, Actes</em>,
+                volume&nbsp;15, pages 67--76. AFPC, 2019.
+
+                <br><button onclick="toggle_visibility('GlorianLMSjfpc19');">Show/Hide abstract</button>
+            <blockquote id="GlorianLMSjfpc19" style="display: none;">
+                Le langage RCC8 est un formalisme largement utilisé
+                pour décrire des arrangements topologiques de régions
+                dans l’espace. Deux problèmes fondamentaux sont associés au langage RCC8 : la satisfiabilité et la
+                réalisation.
+                Soit un réseau de contraintes qualitatives (QCN) de RCC8,
+                le problème de satisfiabilité est de décider s’il est possible d’assigner des régions aux variables du
+                QCN de telle
+                sorte que les contraintes soient satisfaites (solution). Le
+                problème de réalisation est le fait de produire un modèle
+                spatial qui peut servir de solution. Dans cet article, nous
+                combinons les deux lignes de recherches mentionnés audessus et nous explorons l’idée de relier le
+                problème de
+                satisfiabilité et de réalisation. Nous nous limitons aux QCN
+                qui, quand ils sont satisfiables, sont réalisables avec des
+                rectangles. En effet, nous proposons une approche SAT incrémentale afin d’être capable de raisonner sur
+                le langage
+                RCC8 en nous laissant guider par les contre-exemples.
+                Nous avons expérimentalement évalué notre approche
+                et étudié ses performances face aux solveurs de l’état
+                de l’art pour raisonner en RCC8 en utilisant de nombreux
+                ensembles d’instances. Notre approche tient la charge et
+                est compétitive face aux solveurs de l’état de l’art sur les
+                instances considérées.
+
+            </blockquote>
+
+            </p>
+
+            <p>
+                <b>Combinaison de nogoods extraits au redémarrage.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#GlorianBLLMjfpc17">bib</a>&nbsp;|
+                <a target="_blank"
+                    href="PDF/2017/JFPC_2017_Combinaison de nogoods extraits au redémarrage.pdf">pdf</a>]<br>
+                Gael Glorian, Fr&eacute;d&eacute;ric Boussemart, Jean-Marie Lagniez, Christophe
+                Lecoutre, and Bertrand Mazure.<br>
+
+                In <em>Treizièmes journées Francophones de Programmation par
+                    Contraintes, JFPC 2017, Montreuil-sur-mer, France, 13 au 15 juin, 2017,
+                    Actes</em>, volume&nbsp;13, pages 55--64. AFPC, 2017.
+
+                <br><button onclick="toggle_visibility('GlorianBLLMjfpc17');">Show/Hide abstract</button>
+            <blockquote id="GlorianBLLMjfpc17" style="display: none;">
+                Dans cet article, nous nous intéressons à l’enregistrement de nogoods, instanciations partielles
+                globalement incohérentes, pouvant être extraits systématiquement lors du
+                redémarrage d’un algorithme complet (avec retour-arrière)
+                de résolution CSP (problème de satisfaction de contraintes).
+                Plus précisément, dans ce contexte, nous proposons plusieurs techniques de simplification et de
+                combinaison de
+                nogoods, dans le but d’accroître leur capacité de filtrage.
+                La base de notre approche est une généralisation des
+                nld-nogoods correspondant au concept introduit récemment d’increasing-nogoods. Nous proposons plusieurs
+                algorithmes portant sur des combinaisons de sous-ensembles
+                de nogoods identifiés de manière dynamique. Les simila15 rités entre les différents increasing-nogoods
+                permettent un
+                meilleur élagage de l’arbre de recherche, notamment grâce
+                à l’exploitation d’équivalences entre décisions. Nous proposons aussi quelques pistes d’amélioration,
+                notamment un
+                système de sentinelles et la génération de nld-nogoods à la
+                volée. Nos résultats préliminaires montrent l’intérêt de notre
+                approche pour certains problèmes.
+            </blockquote>
+            </p>
+
+            <br>
+            <h3 class="mb-5">Solver description</h3>
+
+            <p>
+                <b>Nacre.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#NACRE18">bib</a>&nbsp;|
+                <a target="_blank" href="http://arxiv.org/abs/1901.01830">http</a>&nbsp;|
+                <a target="_blank" href="PDF/2018/NACRE_solver_description.pdf">pdf</a>]<br>
+                Gael Glorian.<br>
+                In Christophe Lecoutre and Olivier Roussel, editors, <em>Proceedings
+                    of the 2018 XCSP3 Competition</em>, pages 85--85, 2019.
+
+                <br><button onclick="toggle_visibility('NACRE18');">Show/Hide abstract</button>
+            <blockquote id="NACRE18" style="display: none;">
+                NACRE (Nogood And Clause Reasoning Engine) is a constraint solver written in C++. The
+                main purpose of this solver is to experiment nogood recording (with a clause reasoning engine) in
+                Constraint Programming (CP). In particular, the data structures of the solver have been carefully
+                designed to play around nogoods and clauses. This is the first version of the solver and its first
+                submission ever to a competition.
+            </blockquote>
+
+            </p>
+        </div>
+    </section>
+    <hr class="m-0" />
 
     <!-- Tools-->
     <section class="resume-section" id="tools">
@@ -161,19 +425,19 @@
                             href="https://github.com/gglorian/Nacre"><i class="fab fa-github"></i></a></h3>
                     </h3>
                     <blockquote>
-                            NACRE, for Nogood And Clause Reasoning Engine, is a constraint solver written in C++. It is
-                            based on a modular architecture designed to work with generic constraints while implementing
-                            several state-of-the-art search methods and heuristics. Interestingly, its data structures
-                            have
-                            been carefully designed to play around nogoods and clauses, making it suit-able for
-                            implementing
-                            learning strategies. NACRE was submitted to theCSP MiniTrack of the 2018 and 2019 XCSP3 [8]
-                            competitions where it took the first place. This paper gives a general description of NACRE
-                            as a
-                            framework. We present its kernel, the available search algorithms, and the default settings
-                            (notably, used for XCSP3 competitions), which makes NACRE efficient in practice when used as
-                            a
-                            black-box solver.
+                        NACRE, for Nogood And Clause Reasoning Engine, is a constraint solver written in C++. It is
+                        based on a modular architecture designed to work with generic constraints while implementing
+                        several state-of-the-art search methods and heuristics. Interestingly, its data structures
+                        have
+                        been carefully designed to play around nogoods and clauses, making it suit-able for
+                        implementing
+                        learning strategies. NACRE was submitted to theCSP MiniTrack of the 2018 and 2019 XCSP3 [8]
+                        competitions where it took the first place. This paper gives a general description of NACRE
+                        as a
+                        framework. We present its kernel, the available search algorithms, and the default settings
+                        (notably, used for XCSP3 competitions), which makes NACRE efficient in practice when used as
+                        a
+                        black-box solver.
                     </blockquote>
                 </div>
             </div>
@@ -182,11 +446,11 @@
                     <h3 class="mb-0">pFactory <a class="social-icon" target="_blank"
                             href="https://github.com/crillab/pfactory"><i class="fab fa-github"></i></a></h3>
                     <blockquote>
-                            pFactory is a parallel library designed to support and facilitate the implementation of
-                            parallel solvers in C++. It provides robust implementations of parallel algorithms and
-                            allows seamlessly sharing mechanisms, divide-and-conquer or portfolio methods. pFactory
-                            is not related to a specific problem and can very easily be incorporated in order to
-                            solve any kind of combinatorial problem (SAT, CSP, MAXSAT...).
+                        pFactory is a parallel library designed to support and facilitate the implementation of
+                        parallel solvers in C++. It provides robust implementations of parallel algorithms and
+                        allows seamlessly sharing mechanisms, divide-and-conquer or portfolio methods. pFactory
+                        is not related to a specific problem and can very easily be incorporated in order to
+                        solve any kind of combinatorial problem (SAT, CSP, MAXSAT...).
                     </blockquote>
                 </div>
             </div>
@@ -234,6 +498,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
+
+    <script type="text/javascript">
+        function toggle_visibility(id) {
+            var e = document.getElementById(id);
+            if (e.style.display == 'block')
+                e.style.display = 'none';
+            else
+                e.style.display = 'block';
+        }
+    </script>
 </body>
 
 </html>
