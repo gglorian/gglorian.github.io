@@ -66,7 +66,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #fff;
+  background-color: rgb(255,248,220);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -447,7 +447,7 @@ mark, .mark {
 } */
 
 blockquote {
-  background: #f9f9f9;
+  background: rgb(255,235,205);
   border-left: 10px solid #ccc;
   margin: 1.5em 10px;
   padding: 0.5em 10px;
