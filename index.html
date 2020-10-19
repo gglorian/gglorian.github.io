@@ -96,7 +96,11 @@
                         <h3 class="mb-0">Ph.D in Artificial Intelligence</h3>
                         <div class="subheading mb-3">CRIL · Centre de Recherche en Informatique de Lens · Faculté Jean
                             Perrin · Lens, Hauts-de-France · France</div>
-                        <div><b>Title</b>: Hybridization of clauses learning techniques in constraint programming</div>
+                        <div><b>Title</b>: Hybridization of clause learning techniques in constraint programming
+                            [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#glorian:tel-02971371">bib</a>&nbsp;|
+                            <a target="_blank" href="https://hal.archives-ouvertes.fr/tel-02971371">http</a>&nbsp;|
+                            <a target="_blank"
+                                href="PDF/2019/Thesis_Glorian_Hybridation de techniques.pdf">pdf</a>&nbsp;]</div>
                         <div><b>Supervisors</b>: Frédéric Boussemart, Jean-Marie Lagniez, Christophe Lecoutre and
                             Bertrand Mazure</div>
                         <div><b>Keywords</b>: constraint programming, SAT, clauses, nogoods, hybridization</div>
@@ -160,7 +164,7 @@
             <h3 class="mb-5">International</h3>
 
             <p>
-                <b>NACRE · A nogood and clause reasoning engine.</b>
+                <b>NACRE - A nogood and clause reasoning engine.</b>
                 [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#DBLP:conf/lpar/GlorianLL20">bib</a>&nbsp;|
                 <a target="_blank" href="https://easychair.org/publications/paper/rN67">http</a>&nbsp;|
                 <a target="_blank" href="PDF/2020/NACRE_-_A_Nogood_And_Clause_Reasoning_Engine.pdf">pdf</a>]<br>
@@ -180,6 +184,35 @@
                 gives a general description of NACRE as a framework. We present its kernel, the available
                 search algorithms, and the default settings (notably, used for XCSP3 competitions), which
                 makes NACRE efficient in practice when used as a black-box solver.
+            </blockquote>
+            </p>
+
+            <p>
+                <b>Hybridization of clause learning techniques in constraint programming.</b>
+                [&nbsp;<a target="_blank" href="BIB/glorian_bib.html#glorian:tel-02971371">bib</a>&nbsp;|
+                <a target="_blank" href="https://hal.archives-ouvertes.fr/tel-02971371">http</a>&nbsp;|
+                <a target="_blank" href="PDF/2019/Thesis_Glorian_Hybridation de techniques.pdf">pdf</a>&nbsp;]<br>
+                Gael Glorian. <br>
+                Theses, Universit&eacute; d'Artois, December 2019.
+                <br><button onclick="toggle_visibility('glorian:tel-02971371');">Show/Hide abstract</button>
+            <blockquote id="glorian:tel-02971371" style="display: none;">
+                This thesis belongs to the field of constraint programming (CP), one of the most efficient
+                paradigms for solving many problems (of a combinatorial nature) in AI. We have been
+                interested in improving the CSP (constraint satisfaction problem) solving techniques,
+                especially in a hybrid context using the power of SAT (Boolean satisfaction problem)
+                inference engines. We have developed several conflict analysis techniques to extract useful
+                information for resolution, through fine analysis followed by a form of learning. To achieve
+                this goal, we first strengthened the power of nogoods recorded by the resolution system by
+                proposing several rules to combine them. In addition, we integrated a SAT resolution engine
+                into a CP system based on the notion of lazy explanations. The use of a SAT engine is
+                motivated by their high efficiency in producing and manipulating simple forms of nogoods in
+                clausal form. The NACRE software, a generic reasoning engine, is the result of this work; In
+                particular, it was designed to be a hybrid solver, solving constraint satisfaction problems
+                using dedicated or SAT-inspired methods. Our generic (i.e., valid for any problem) approach
+                has proved very effective in practice (NACRE has won 2 gold medals at the XCSP competitions
+                2018 and 2019). In order to enrich the SAT / CP hybridization, we conducted a study on the
+                quality of clauses produced by the SAT engine. This allowed us to propose new methods for
+                clauses database reduction, minimization and new search heuristics.
             </blockquote>
             </p>
 
